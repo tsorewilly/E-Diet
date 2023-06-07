@@ -1,0 +1,79 @@
+/* CSS Document */
+body{background:#CCC;}
+
+
+.form{	border:#999 outset 1px;	}
+.form input:hover{background:#99F; color:#FFF;}
+.section{background:#036; color:#9CC; font:bold 11px Tahoma}
+.label, .form label{font: bold 10px verdana;}
+
+.r0{background:#FFF; border-bottom:1px #600 solid; color:#039; cursor:pointer;}
+.r1{background:#039; border-bottom:1px #600 solid; color:#FFF; cursor:pointer;}
+
+.r0:Hover{background:#C9C; border-bottom:1px #600 solid; color:#FFF; cursor:pointer;}
+.r1:Hover{background:#C9C; border-bottom:1px #600 solid; color:#FFF; cursor:pointer;}
+
+
+
+
+#Suxes{background:#FFF; width:99.6%; border:2px #909 solid; text-align:center; font-size:12px; font-weight:bolder; color:#909; height:20px; }
+#Warning{background:#C90; width:99.8%; border:2px #660 solid; text-align:center; font-size:10px; color:#FFF; height:20px; }
+#Error{background:#C00; width:99.8%; border:2px #660 solid; text-align:center; font-size:10px; color:#FFF; height:20px; }
+#Info{width:100%; border:1px #660 dotted; text-align:center; font-size:10px; color:#F00; height:10px; }
+
+.db-query-report{width:80; text-align:justify; color:#036; font:normal 10px "Comic Sans MS", cursive}
+
+.arrowlistmenu{
+width: 180px; /*width of accordion menu*/
+
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 10px verdana;
+color: white;
+background:white url(../images/wsmenuheader.jpg) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(../images/wsmenuheader.jpg);
+}
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+font-family:"verdana";
+font-size: 10px;
+color:#FFFFFF;
+background: url(../images/bullet2.gif) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+border-bottom: 1px dotted #666633;
+
+}
+
+.arrowlistmenu ul li a:visited{
+color: #FFFFFF;
+font-family:"verdana";
+font-size: 10px;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color:#FFFFFF;
+background-color:#666633; /*#F3F3F3;*/
+font:verdana;
+font-size: 10px;
+}

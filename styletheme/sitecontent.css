@@ -1,0 +1,211 @@
+body {
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+#navigation a {
+	font: 11px tahoma;
+	color: #666666;
+	line-height:22px;
+/*	letter-spacing:.1em;
+*/	text-decoration: none;
+	display:block;
+	padding-left:10px;
+/*	padding:8px 6px 10px 26px;
+	background: url("listArrow.gif") 14px 45% no-repeat;
+*/}
+
+#navigation a:hover, {
+	background:#999999 ;
+	color:#FFFFFF;
+	}
+#navigation a:visited {
+	text-decoration: none;
+}
+#navigation a:active {
+	text-decoration: none;
+}
+
+.mHStyle{
+font-family:tahoma;
+font-size:12px;
+font-weight:normal;
+color:#FF0000;
+padding-left:2px;
+}
+.mSHStyle{
+font-family:tahoma;
+font-size:12px;
+font-weight:normal;
+color:#004080;
+padding-left:2px;
+}
+
+a.mLinkStyle:link{
+font-family:tahoma;
+font-size:11px;
+font-weight:normal;
+line-height:18px;
+text-decoration:none;
+color:#000099;
+padding-left:2px;
+}
+
+a.mLinkStyle:hover{
+font-family:tahoma;
+font-size:11px;
+font-weight:normal;
+line-height:18px;
+text-decoration:none;
+color:#CC0000;
+padding-left:2px;
+}
+
+a.mLinkStyle:visited{
+font-family:tahoma;
+font-size:11px;
+font-weight:normal;
+line-height:18px;
+color:#999999;
+text-decoration:none;
+padding-left:2px;
+}
+
+a.mLinkwithbkStyle:link{
+font-family:tahoma;
+font-size:10px;
+font-weight:normal;
+text-decoration:none;
+line-height:18px;
+color:#FFFFFF;
+background-color:#990000;
+}
+a.mLinkwithbkStyle:hover{
+font-family:tahoma;
+font-size:10px;
+font-weight:normal;
+text-decoration:none;
+line-height:18px;
+color:#FFFFFF;
+background-color:#003366;
+/*padding-left:2px;*/
+}
+a.mLinkwithbkStyle:visited{
+font-family:tahoma;
+font-size:10px;
+font-weight:normal;
+text-decoration:none;
+line-height:18px;
+color:#FFFFFF;
+background-color:#990000;
+/*padding-left:2px;*/
+}
+a.mLinkwithbkStyle:active{
+font-family:tahoma;
+font-size:10px;
+font-weight:normal;
+text-decoration:none;
+color:#FFFFFF;
+background-color:#990000;
+/*padding-left:2px;*/
+}
+.contenttext {
+	font-family: tahoma;
+	font-size: 11px;
+	line-height:18px;
+	display:block;
+	color:#666666;
+}
+.tabtext {
+	font-family: tahoma;
+	font-size: 11px;
+	display:block;
+	color:#003333;
+}
+
+.intructortext {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #999999;
+}
+
+.bigtext {
+	font-family:verdana;
+	font-size: 20px;
+	color:#666666;
+}
+.namestyle{
+font-family:tahoma;
+font-size:10px;
+font-weight:bold;
+color:#990000
+}
+.titlestyle{
+font-family:tahoma;
+font-size:11px;
+font-weight:normal;
+color:#000000;
+}
+.titleheader{
+font-family:tahoma;
+font-size:10px;
+font-weight:bold;
+color:#FFFFFF;
+text-transform:uppercase
+}
+.lightheader{
+font-family:tahoma;
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+color:#FF0000;
+text-transform:capitalize;
+}
+
+.liststyleOne
+{
+	list-style:square;
+	list-style-position: 1px;
+	font-family:tahoma;
+	font-size:11px;
+	color:#666666;
+}
+
+.liststyleno
+{
+	list-style:decimal
+	list-style-position: 1px;
+	font-family:tahoma;
+	font-size:11px;
+	color:#666666;
+}
+
+.liststyleabc
+{
+	list-style:lower-alpha;
+	list-style-position: 1px;
+	font-family:tahoma;
+	font-size:11px;
+	color:#666666;
+}
+
+.liststyleroman
+{
+	list-style:lower-roman;
+	list-style-position: 1px;
+	font-family:tahoma;
+	font-size:11px;
+	color:#666666;
+}
+
+
+
+.tablelist
+{
+	border:1px dashed #999999;
+	line-height:22px;
+	font-family:tahoma;
+	font-weight:normal;
+	font-size:11px;
+	color:#666666;
+}
